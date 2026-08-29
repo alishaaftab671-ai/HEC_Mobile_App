@@ -2,14 +2,23 @@
   "expo": {
     "name": "HEC_Mobile_App",
     "slug": "HEC_Mobile_App",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-dev-client"
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.alishaaftab.hecmobileapp",
+      "versionCode": 2,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -18,8 +27,11 @@
       },
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "extra": {
+      "eas": {
+        "projectId": "bf252f8e-1635-4f5e-b054-4384a27d2a25"
+      }
+    },
+    "owner": "alisha-aftab"
   }
 }
