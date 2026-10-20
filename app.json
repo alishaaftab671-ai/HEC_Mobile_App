@@ -19,6 +19,7 @@
     "android": {
       "package": "com.alishaaftab.hecmobileapp",
       "versionCode": 2,
+      "softwareKeyboardLayoutMode": "resize",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -32,6 +33,12 @@
         "projectId": "bf252f8e-1635-4f5e-b054-4384a27d2a25"
       }
     },
-    "owner": "alisha-aftab"
+    "owner": "alisha-aftab",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bf252f8e-1635-4f5e-b054-4384a27d2a25"
+    }
   }
 }
